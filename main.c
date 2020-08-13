@@ -1,6 +1,6 @@
-#include "stdio.h"
-int main(int argc, char const *argv[])
+#include <stdio.h>
+int main()
 {
-    printf("Hello World\n");
+    printf("%zd\n",sizeof(char *));
     return 0;
 }
