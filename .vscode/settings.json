@@ -1,0 +1,7 @@
+{
+	"code-runner.executorMap": {
+		//在$fileName后跟需要联合编译的文件名！
+		"cpp": "cd $dir && cl /EHsc /nologo $fileName  && $dir$fileNameWithoutExt.exe && del $dir$fileNameWithoutExt.obj $dir$fileNameWithoutExt.exe",
+		"c": "cd $dir && cl /EHsc /nologo $fileName && $dir$fileNameWithoutExt.exe && del $dir$fileNameWithoutExt.obj $dir$fileNameWithoutExt.exe"
+	},
+}
