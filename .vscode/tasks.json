@@ -8,9 +8,9 @@
                 "/EHsc", //异常捕获参数
                 "/Z7",
                 "/Fo:",
-                "${fileDirname}\\build\\" ,
+                "${workspaceFolder}\\build\\" ,
                 "/Fe:",
-                "${fileDirname}\\build\\${fileBasenameNoExtension}.exe",
+                "${workspaceFolder}\\build\\${fileBasenameNoExtension}.exe",
                 "${file}",
                 // 在这里依格式加入要联合调试的文件名！
                 // "${fileDirname}/file1.c",

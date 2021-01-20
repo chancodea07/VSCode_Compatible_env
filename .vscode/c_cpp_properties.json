@@ -1,7 +1,7 @@
 {
     "configurations": [
         {
-            "name": "Visual Studio with VSCode",
+            "name": "MSVC env in VSCode",
             "includePath": [
                 "${workspaceFolder}/**"
             ],
@@ -11,7 +11,7 @@
                 "_UNICODE"
             ],
             "windowsSdkVersion": "10.0.18362.0",
-            "compilerPath": "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.27.29110/bin/Hostx64/x64/cl.exe",
+            "compilerPath": "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.28.29333/bin/Hostx64/x64/cl.exe", //注意这里升级VS之后需要修改路径
             "cStandard": "c11",
             "cppStandard": "c++17",
             "intelliSenseMode": "msvc-x64"
